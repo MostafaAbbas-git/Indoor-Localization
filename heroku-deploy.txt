@@ -1,0 +1,6 @@
+heroku login
+git init
+heroku git:remote -a flask-testing-iot
+git add .
+git commit -am "commit message"
+git push heroku master
